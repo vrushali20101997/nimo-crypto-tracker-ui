@@ -318,9 +318,6 @@ function App() {
               <h2 className="text-xl font-semibold text-white">
                 Search History
               </h2>
-              <p className="text-slate-400 text-sm mt-1">
-                Efficiently loaded using DynamoDB GSI
-              </p>
             </div>
             <button
               onClick={fetchHistory}
